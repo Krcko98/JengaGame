@@ -49,7 +49,7 @@ namespace JengaGame.CameraNS
         {
             if (focusObject == null) return;
             
-            transform.position = Vector3.Slerp(transform.position, focusObject.position, Time.deltaTime * followSpeed);
+            transform.position = Vector3.Lerp(transform.position, focusObject.position, Time.deltaTime * followSpeed);
         }
 
         private void getInput()
