@@ -9,3 +9,4 @@ Stone - https://assetstore.unity.com/packages/2d/textures-materials/stone/hand-p
 Controls : <br>
 - Orbit the camera around the focused stack by holding Left click<br>
 - Select jenga pieces by Right clicking<br>
+- Click on Test my stack button to remove weak jenga pieces and simulate physics
